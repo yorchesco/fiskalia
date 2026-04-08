@@ -1,5 +1,9 @@
 [build]
   publish = "fiskalia"
 
+[build.environment]
+  NODE_VERSION = "18"
+
 [functions]
   directory = "fiskalia/netlify/functions"
+  node_bundler = "esbuild"
