@@ -1,0 +1,5 @@
+[build]
+  publish = "fiskalia"
+
+[functions]
+  directory = "fiskalia/netlify/functions"
